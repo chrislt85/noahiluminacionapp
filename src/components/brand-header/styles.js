@@ -1,10 +1,10 @@
 import { StyleSheet } from "react-native";
-import { colors } from "../../constants/themes/colors";
+import { COLORS } from "../../constants/themes/colors";
 
 export const styles = StyleSheet.create({
     brandcontainer: {
         flexDirection: 'row',
-        backgroundColor: colors.primary,
+        backgroundColor: COLORS.primary,
         height: 80,
         justifyContent: 'center',
         alignItems: 'center',
@@ -18,6 +18,6 @@ export const styles = StyleSheet.create({
     brandtitle: {
         fontFamily: 'Raleway-BoldItalic',
         fontSize: 22,
-        color: colors.white,
+        color: COLORS.white,
     },
 });
