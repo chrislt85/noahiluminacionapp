@@ -5,10 +5,9 @@ export const styles = StyleSheet.create({
     brandcontainer: {
         flexDirection: 'row',
         backgroundColor: COLORS.primary,
-        height: 80,
+        height: 60,
         justifyContent: 'center',
         alignItems: 'center',
-        paddingTop: 20,
     },
     brandimage: {
         width: 30,

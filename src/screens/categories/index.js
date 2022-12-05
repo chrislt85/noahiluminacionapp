@@ -1,17 +1,20 @@
 import React from "react";
-import { View, Text, Button, FlatList } from "react-native";
+import { FlatList } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+
 import { BrandHeader, CategoryItem } from "../../components";
 import { CATEGORIES } from '../../constants/data/index';
-import { COLORS } from "../../constants/themes/colors";
+
 import { styles } from "./styles";
 
 const Categories = ({ navigation }) => {
     const onSelected = (item) => {
-        console.warn('onSelected', item);
+        navigation.navigate('Products', { categoryId: item.id, title: item.title, color: item.color });
     };
     const renderItem = ({ item }) => <CategoryItem item={item} onSelected={onSelected} />;
+
     return (
-        <View style={styles.container}>
+        <SafeAreaView style={styles.container}>
             <BrandHeader title="Noah Iluminación" />
             <FlatList 
                 data={CATEGORIES}
@@ -19,15 +22,7 @@ const Categories = ({ navigation }) => {
                 keyExtractor={(item) => item.id.toString()}
                 style={styles.containerList}
             />
-            {/*<View style={styles.categoriescontainer}>
-                <Text style={styles.title}>Aquí van las categorías (Carteles LED, lámparas, etc)...</Text>
-                <Button
-                    title="Productos"
-                    color={COLORS.primaryDark}
-                    onPress={() => navigation.navigate('Products')}
-                />
-            </View>*/}
-        </View>
+        </SafeAreaView>
     )
 }
 

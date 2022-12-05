@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-//import { COLORS } from "../../constants/themes/colors";
+import { COLORS } from "../../constants/themes/colors";
 
 export const styles = StyleSheet.create({
     container:{
@@ -17,10 +17,16 @@ export const styles = StyleSheet.create({
             width: 0,
             height: 1,
         },
-        shadowOpacity: 0.20,
-        shadowRadius: 1.41,
-        elevation: 2,
+        shadowOpacity: 0.22,
+        shadowRadius: 2.22,
+        elevation: 3,
         justifyContent: 'center',
         alignItems: 'center',
+        padding: 10,
+    },
+    title: {
+        fontSize: 18,
+        fontFamily: 'Raleway-Bold',
+        color: COLORS.text,
     },
 });

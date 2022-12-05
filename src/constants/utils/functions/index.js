@@ -1,4 +1,4 @@
 import { Platform } from "react-native";
 
-const isIOS = Plaform.OS === 'ios';
-const isAndroid = Plaform.OS === 'android';
+const isIOS = Platform.OS === 'ios';
+const isAndroid = Platform.OS === 'android';
