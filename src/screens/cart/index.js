@@ -22,7 +22,7 @@ const Cart = ({ navigation }) => {
             </View>            
             <View style={styles.footer}>
                 <TouchableOpacity style={styles.buttonConfirm} onPress={() => null}>
-                    <Text style={styles.textButtonConfirm}>Confirmar compra</Text>
+                    <Text style={styles.textButtonConfirm}>Finalizar compra</Text>
                     <View style={styles.totalContainer}>
                         <Text style={styles.textTotalTitle}>Total</Text>
                         <Text style={styles.textTotal}>${total}</Text>

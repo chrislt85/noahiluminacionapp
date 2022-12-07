@@ -13,6 +13,8 @@ export const styles = StyleSheet.create({
         height: 200,
         marginTop: 10,
         marginBottom: 10,
+        borderColor: COLORS.background,
+        borderWidth: 2,
     },
     title: {
         fontFamily: 'Raleway-Bold',
@@ -32,11 +34,5 @@ export const styles = StyleSheet.create({
     price: {
         fontFamily: 'Raleway-Bold',
         fontSize: 20,
-    },
-    buttonBuy: {
-        marginTop: 20,
-    }, 
-    textButtonBuy: {
-
     },
 });

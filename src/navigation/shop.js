@@ -17,6 +17,7 @@ const ShopNavigator = () => {
                 headerTitleStyle:{
                     fontFamily: 'Raleway-Regular'
                 },
+                headerTitleAlign: 'center',
                 headerBackTitle: '',
             }} 
         >

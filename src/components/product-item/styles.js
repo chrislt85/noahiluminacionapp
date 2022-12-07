@@ -12,6 +12,19 @@ export const styles = StyleSheet.create({
     },
     item: {
         flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+    },
+    itemImage: {
+        width: 80,
+        height: 80,
+        marginRight: 10,
+        borderColor: COLORS.background,
+        borderWidth: 2,
+    },
+    itemContainer: {
+        flex: 1,
         justifyContent: 'space-around',
     },
     title: {

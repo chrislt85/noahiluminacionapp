@@ -27,6 +27,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
     },
     textButtonConfirm: {
+        color: COLORS.white,
         fontSize: 14,
         fontFamily: 'Raleway-Regular',
     },
@@ -37,10 +38,12 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-between',
     },
     textTotalTitle: {
+        color: COLORS.white,
         fontSize: 14,
         fontFamily: 'Raleway-Regular',
     },
     textTotal: {
+        color: COLORS.white,
         fontSize: 16,
         fontFamily: 'Raleway-Bold',
     },

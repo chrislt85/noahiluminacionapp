@@ -17,6 +17,7 @@ const CartNavigator = () => {
                 headerTitleStyle:{
                     fontFamily: 'Raleway-Regular'
                 },
+                headerTitleAlign: 'center',
                 headerBackTitle: '',
             }}>
             <Stack.Screen
