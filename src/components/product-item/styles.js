@@ -8,7 +8,6 @@ export const styles = StyleSheet.create({
         marginHorizontal: 20, 
         marginVertical: 10,
         borderRadius: 10,
-        //backgroundColor: COLORS.backgroundLight,
         height: 120,
     },
     item: {
@@ -27,7 +26,7 @@ export const styles = StyleSheet.create({
         fontFamily: 'Raleway-Bold',
         fontSize: 18,
     },
-    weight: {
+    stock: {
         fontFamily: 'Raleway-Italic',
         fontSize: 14,
     },
